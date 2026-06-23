@@ -1,0 +1,28 @@
+/* app/globals.css */
+@import "tailwindcss";
+@import "@heroui/styles";
+:root {
+  /* Override any color variable */
+  --accent: oklch(0.7 0.25 260);
+  --success: oklch(0.65 0.15 155);
+}
+.imgUrl {
+  background-image: url("/Assets/globe.png");
+}
+
+input[type="date"] {
+  /* Remove default styles */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  color: inherit;
+}
+
+Input,Select.Trigger{
+  background-color: transparent;
+}
+ 
