@@ -7,7 +7,7 @@ const DashboardLayout = ({ children }) => {
             <div>
                 <DashboardSidebar />
             </div>
-            <div className="w-full">
+            <div className="w-full p-0">
                 {children}
             </div>
         </div>
